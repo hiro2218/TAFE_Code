@@ -48,14 +48,14 @@ This course requires a final project to be developed as part of a group. Groups 
 | 6        | Namespaces and Libraries    | Fn.A1 Due          | Fundamentals    |
 | 7        | Introduction, Lists         | DS.A1 Release      | Data Structures |
 | 8        | Iterators and Iterables     |                    | Data Structures |
-| 9        | Trees and Traversals        | DS.A2 Release      | Data Structures |
+| 9        | Trees and Traversals        | Fn.A2 Due          | Data Structures |
 | Br.      |                             | DS.A1 Due          |                 |
 | Br.      |                             |                    |                 |
-| 10       | Trees, Maps and Heaps       |                    | Data Structures |
-| 11       | Graphs and Traversals       | DS.A2 Due          | Data Structures |
+| 10       | Trees, Maps and Heaps       | DS.A2 Release      | Data Structures |
+| 11       | Graphs and Traversals       |                    | Data Structures |
 | 12       | Permutations and Generation |                    | Data Structures |
 | 13       | Networking and Development  | AppDev.A1 Release  | App-Development |
-| 14       | Networking and Concurrency  |                    | App-Development |
+| 14       | Networking and Concurrency  | DS.A2 Due          | App-Development |
 | 15       | Persistent Storage and Sync |                    | App-Development |
 | 16       | Server-Side Development - 1 |                    | App-Development |
 | 17       | Server-Side Development - 2 | AppDev.A2 Release  | App-Development |
