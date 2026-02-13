@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ColourLerp.Test/ColourLerp.Test.csproj" />
+  <Project Path="ColourLerp/ColourLerp.csproj" />
+</Solution>

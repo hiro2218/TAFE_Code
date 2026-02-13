@@ -41,6 +41,33 @@ public class TermController
         return mMatch;	
     }
 
+    
+    public TermController FindAndInvokeMainWithSpeculation(string programName, string[] namespaceSpec,
+        object[] args)
+    {
+        
+        MethodInfo? m = GetMain(programName);
+        if(m != null) {
+            m.Invoke(null, new object[] { args });
+            return this;
+        } else {
+            
+            for(int i = 0; i < namespaceSpec.Length; i++)
+            {
+                string prefix = namespaceSpec[i] + ".";
+                string newPrgName = prefix + programName;
+                m = GetMain(programName);
+                if(m != null) {
+                    m.Invoke(null, new object[] { args });
+                    return this;
+                }
+            }
+
+        }
+        //Exhausted all options
+        throw new Exception("Unable to find Main Method, please report as a bug/issue to the instructor");
+    }
+
 	//
 	// Finds and Invokes the main function associated with
 	// 
@@ -48,6 +75,9 @@ public class TermController
         MethodInfo? m = GetMain(programName);
         if(m != null) {
             m.Invoke(null, new object[] { args });
+        } else {
+            throw new Exception("Unable to find Main Method, please report as a bug/issue to the instructor");
+            
         }
         return this;
     }
