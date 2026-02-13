@@ -1,0 +1,13 @@
+Enter the first colour: 0x000000
+Enter the second colour: 0xFF0000
+Enter the number of colours to generate inbetween: 7
+Colours:
+0x000000
+0x200000
+0x400000
+0x600000
+0x800000
+0xa00000
+0xc00000
+0xe00000
+0xff0000

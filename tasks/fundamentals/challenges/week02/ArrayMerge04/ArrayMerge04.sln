@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMerge", "ArrayMerge\ArrayMerge.csproj", "{11B76A05-46B2-41EE-9A24-6856E9CD1038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMerge.Test", "ArrayMerge.Test\ArrayMerge.Test.csproj", "{465ED1A7-7775-43E0-81D4-BA6EA23E1CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B76A05-46B2-41EE-9A24-6856E9CD1038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B76A05-46B2-41EE-9A24-6856E9CD1038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B76A05-46B2-41EE-9A24-6856E9CD1038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B76A05-46B2-41EE-9A24-6856E9CD1038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465ED1A7-7775-43E0-81D4-BA6EA23E1CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465ED1A7-7775-43E0-81D4-BA6EA23E1CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465ED1A7-7775-43E0-81D4-BA6EA23E1CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465ED1A7-7775-43E0-81D4-BA6EA23E1CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

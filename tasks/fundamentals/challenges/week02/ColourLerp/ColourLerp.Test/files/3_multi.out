@@ -1,0 +1,9 @@
+Enter the first colour: 0x002222
+Enter the second colour: 0xFFDD33
+Enter the number of colours to generate inbetween: 3
+Colours:
+0x002222
+0x405126
+0x80802a
+0xbfae30
+0xffdd34
